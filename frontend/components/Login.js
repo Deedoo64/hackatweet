@@ -13,6 +13,7 @@ function Login() {
       />
 
       <div className={styles.rightContainer}>
+        <img className={styles.logo} src="logo.png" alt="logo twitter" />
         <h1 className={styles.title}>See what's happening</h1>
         <h3 className={styles.otherTitle}>Join Hackatweet today</h3>
         <button className={styles.btnSignUp}>Sign Up</button>
