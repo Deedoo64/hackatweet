@@ -1,0 +1,44 @@
+.loginContainer {
+  /* background-color: #161f2d; */
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+}
+.leftContainer {
+  border: 0.5 black solid;
+
+  height: 100vh;
+  width: 60vw;
+}
+
+.rightContainer {
+  background-color: #161f2d;
+  border: 0.5 black solid;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.title {
+  color: white;
+}
+.otherTitle {
+  color: white;
+}
+.btnSignUp {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+}
+.btnSignIn {
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+}
+.textAlready {
+  color: white;
+}
