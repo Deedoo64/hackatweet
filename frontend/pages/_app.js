@@ -31,7 +31,8 @@ function App({ Component, pageProps }) {
         <Head>
           <title>Hackatweet</title>
         </Head>
-        <div>AAAAAAAAAAAA</div>
+
+        <Component {...pageProps} />
       </PersistGate>
     </Provider>
   );
